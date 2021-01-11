@@ -1,13 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #0c0c0c;
+  font-family: "Sawarabi Mincho", sans-serif;
+  color: #ffffff;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.center {
+  display: flex;
+  align-items: center;
+  text-align: -webkit-center;
+}
+
+/* Nav */
+a {
+  font-size: 28px;
+  text-decoration: none;
+  color: #356daf;
+  font-weight: bold;
+}
+
+.Nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #356daf;
+  background-color: #161616;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+li {
+  float: left;
+  list-style: none;
+}
+li a {
+  font-size: 16px;
+}
+.category {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  right: 7vh;
+  top: 8vh;
+  background-color: #161616;
+  border-radius: 10px;
+}
+.category-active {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 7vh;
+  top: 8vh;
+  background-color: #161616;
+  border-radius: 10px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 0;
+}
+
+/* Lines */
+.menuButton {
+  background-color: #161616;
+  border: 0px;
+}
+button:active {
+  border: 0;
+}
+.line1 {
+  width: 35px;
+  background-color: #356daf;
+  height: 2px;
+  margin-top: 0;
+}
+.line2 {
+  width: 33px;
+  background-color: #356daf;
+  height: 2px;
+  margin-top: 10px;
+}
+.line3 {
+  width: 31px;
+  background-color: #356daf;
+  height: 2px;
+  margin-top: 10px;
+}
+
+/* MARGIN */
+.margin {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Description */
+.description {
+  margin: 2rem;
+  margin-top: 13vh;
+  display: flex;
+  flex-direction: column;
+}
+.description h3 {
+  color: #356daf;
+  font-size: 4vh;
+  margin: 1px;
+}
+.description h1 {
+  font-size: 7vh;
+  margin: 0px;
+}
+.description h2 {
+  color: #75828a;
+  font-size: 3vh;
+  margin: 0px;
+}
+.description p {
+  color: #75828a;
+  font-size: 2.5vh;
+  margin-top: 10px;
+}
+.mail {
+  margin-top: 25px;
+  border: 2px solid #356daf;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 200px;
+  font-size: 16px;
+}
+
+/* Skills */
+.skills {
+  margin: 2rem;
+  margin-top: 25rem;
+  text-align: -webkit-center;
+}
+.lineHorizontal {
+  height: 2px;
+  background-color: #356daf;
+  width: 100%;
+}
+.rowLines {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.box {
+  background-color: #161616;
+  border-radius: 25px;
+  padding: 1rem;
+  text-align: -webkit-center;
+}
+.skills h1 {
+  color: #356daf;
+  font-size: 22px;
+}
+.containerSkills {
+  display: inline-table;
+  margin: auto;
+  text-align: -webkit-center;
+}
+.skills img {
+  width: 8vh;
+  margin: 1rem;
+}
+.reactLogo {
+  width: 13vh !important;
+}
+
+/* Social Media */
+.socialmedia {
+  margin: 2rem;
+  padding: 1rem;
+  margin-top: 10rem;
+}
+.containerSocialmedia {
+  display: inline-table;
+  margin: auto;
+  text-align: -webkit-center;
+  width: 100%;
+  flex-direction: row;
+}
+.socialmedia h1 {
+  color: #356daf;
+  font-size: 22px;
+}
+.socialmedia img {
+  width: 8vh !important;
+  margin: 1rem;
+}
+
+/* Vector */
+.containerVector {
+  width: 25px;
+  border: 1px solid #161616;
+  background-color: #161616;
+  border-radius: 20px;
+  padding: 0.5rem;
+  height: 25px;
+}
+.vector {
+  width: 10px;
+}
+.imgVector {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.endVector {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Projects */
+.projects {
+  margin: 2rem;
+  padding: 2rem;
+  margin-top: 10rem;
+}
+.projects h1 {
+  color: #356daf;
+  font-size: 22px;
+}
+.rowProjects {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.projects img {
+  width: 8vh;
+  margin: 1rem;
+}
+.projects h2 {
+  margin: 1rem;
 }
