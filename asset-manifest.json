@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.a99b7920.chunk.css",
-    "main.js": "/static/js/main.f2e857fa.chunk.js",
-    "main.js.map": "/static/js/main.f2e857fa.chunk.js.map",
+    "main.css": "/static/css/main.93372383.chunk.css",
+    "main.js": "/static/js/main.803b21db.chunk.js",
+    "main.js.map": "/static/js/main.803b21db.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.20f14a90.js",
     "runtime-main.js.map": "/static/js/runtime-main.20f14a90.js.map",
     "static/js/2.3638a380.chunk.js": "/static/js/2.3638a380.chunk.js",
     "static/js/2.3638a380.chunk.js.map": "/static/js/2.3638a380.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a99b7920.chunk.css.map": "/static/css/main.a99b7920.chunk.css.map",
+    "static/css/main.93372383.chunk.css.map": "/static/css/main.93372383.chunk.css.map",
     "static/js/2.3638a380.chunk.js.LICENSE.txt": "/static/js/2.3638a380.chunk.js.LICENSE.txt",
     "static/media/GestApp.2dc6d791.png": "/static/media/GestApp.2dc6d791.png",
     "static/media/header.css": "/static/media/Photo.721adf1b.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.20f14a90.js",
     "static/js/2.3638a380.chunk.js",
-    "static/css/main.a99b7920.chunk.css",
-    "static/js/main.f2e857fa.chunk.js"
+    "static/css/main.93372383.chunk.css",
+    "static/js/main.803b21db.chunk.js"
   ]
 }
