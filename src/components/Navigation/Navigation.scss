@@ -1,0 +1,22 @@
+@import "../../variables.scss";
+
+.Navigation {
+  color: #fff;
+  height: 100px;
+  justify-content: center;
+  gap: 10vw;
+  align-items: center;
+  .item {
+    color: #fff;
+    text-decoration: none;
+    font-family: $Roboto;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .item:hover {
+    color: $Aqua;
+  }
+  .item.active {
+    color: $Aqua;
+  }
+}
