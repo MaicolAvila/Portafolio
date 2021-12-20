@@ -1,8 +1,30 @@
 .Projects {
   display: flex;
   justify-content: center;
+  height: 100%;
+  align-items: center;
   .Projects-container {
     overflow-y: auto;
-    max-width: 80vw;
+    width: 80vw;
+    max-height: 100%;
+  }
+  /* width */
+  .Projects-container::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  /* Track */
+  .Projects-container::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  /* Handle */
+  .Projects-container::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
+
+  /* Handle on hover */
+  .Projects-container::-webkit-scrollbar-thumb:hover {
+    background: transparent;
   }
 }
