@@ -1,0 +1,8 @@
+.Projects {
+  display: flex;
+  justify-content: center;
+  .Projects-container {
+    overflow-y: auto;
+    max-width: 80vw;
+  }
+}
