@@ -1,3 +1,28 @@
-.CardProject{
-    justify-content: space-between;
+.CardProject {
+  justify-content: space-between;
+  color: #ffffff;
+  .description-content {
+    max-width: 30vw;
+    justify-content: space-around;
+    .title {
+      font-weight: bold;
+      font-size: 1.125rem;
+      text-align: start;
+    }
+    .description {
+      font-size: 1rem;
+    }
+    .buttons {
+      justify-content: space-between;
+      font-size: 1rem;
+      .view {
+        color: #01baef;
+        text-decoration: none;
+      }
+      .know {
+        text-decoration: none;
+        color: #b80c09;
+      }
+    }
+  }
 }

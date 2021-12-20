@@ -1,0 +1,19 @@
+.BottomNav {
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: 10vh;
+  .ico {
+    svg {
+      width: 30px;
+      height: 30px;
+      transition: all 500ms ease-in-out;
+    }
+  }
+  .ico:hover {
+    svg {
+      width: 35px;
+      height: 35px;
+    }
+  }
+}

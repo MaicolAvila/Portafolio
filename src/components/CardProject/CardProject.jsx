@@ -8,15 +8,16 @@ export default class CardProject extends Component {
         <div className="image-container">
           <img src={this.props.image} alt="" />
         </div>
-        <div className="description-content">
-          <div className="title">MOTION CMS</div>
-          <div className="description">
-            CMS desarrollado en reactJs, con un manejo de datos desde el erp
-            odoo y backend en python.
-          </div>
+        <div className="description-content column">
+          <div className="title">{this.props.title}</div>
+          <div className="description">{this.props.description}</div>
           <div className="buttons row">
-            <a href="">Ver</a>
-            <a href="">Saber más...</a>
+            <a className="view" href={this.props.link_vew}>
+              Ver
+            </a>
+            <a className="know" href={this.props.link_know}>
+              Saber más...
+            </a>
           </div>
         </div>
       </div>
