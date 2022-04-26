@@ -17,10 +17,10 @@ class Navigation extends Component {
           Projects
         </Link>
         <Link
-          to="/Repositories"
-          className={`item ${pathname === "/Repositories" ? "active" : ""}`}
+          to="/Biography"
+          className={`item ${pathname === "/Biography" ? "active" : ""}`}
         >
-          Repositories
+          Biography
         </Link>
         <Link
           to="/Contact"

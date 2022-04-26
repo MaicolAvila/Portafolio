@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Home.scss";
+import CV from "../../assets/Hoja_de_Vida_Maicol_Andres_Avila.pdf";
 
 import { ReactComponent as GithubIco } from "../../assets/Github-ico.svg";
 import { ReactComponent as LinkedinIco } from "../../assets/Linkedin-ico.svg";
@@ -30,7 +31,7 @@ class Home extends Component {
               </a>
               <a
                 className="button-red button"
-                href="./Hoja_de_Vida_Maicol_Andres_Avila.pdf"
+                href={CV}
                 download
                 target="_blank"
               >
@@ -43,7 +44,7 @@ class Home extends Component {
               </a>
               <a
                 className="ico linkedin"
-                href="https://www.linkedin.com/in/maicol-andres-b5a0211ab/"
+                href="https://www.linkedin.com/in/maicol-andres-avila-vela-b5a0211ab/"
               >
                 <LinkedinIco />
               </a>
